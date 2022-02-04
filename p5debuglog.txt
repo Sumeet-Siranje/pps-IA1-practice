@@ -1,0 +1,6 @@
+Starting program: /home/runner/pps-IA1-practice-2/a.out 
+warning: Error disabling address space randomization: Operation not permitted
+enter a number to find the square root of :
+5
+squareroot of given input 5.00 is = 2.24 
+[Inferior 1 (process 441) exited normally]
