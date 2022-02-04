@@ -1,0 +1,16 @@
+Starting program: /home/runner/pps-IA1-practice-2/a.out 
+warning: Error disabling address space randomization: Operation not permitted
+enter the number of input:
+5
+enter a number
+5
+enter a number
+5
+enter a number
+7
+enter a number
+5
+enter a number
+8
+5+5+7+5+8 is 30
+[Inferior 1 (process 206) exited normally]
