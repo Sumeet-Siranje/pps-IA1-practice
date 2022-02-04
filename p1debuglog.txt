@@ -1,0 +1,7 @@
+Starting program: /home/runner/pps-IA1-practice-2/a.out 
+warning: Error disabling address space randomization: Operation not permitted
+enter two numbers
+21
+33
+sum of the two numbers 21 and 33 id = 54
+[Inferior 1 (process 261) exited normally]
