@@ -1,0 +1,10 @@
+Starting program: /home/runner/pps-IA1-practice-2/a.out 
+warning: Error disabling address space randomization: Operation not permitted
+Enter the complex number
+45
+56
+Enter the complex number
+78
+23
+45.00 + 56.00i + 78.00 + 23.00i is 123.00 + 79.00i
+[Inferior 1 (process 929) exited normally]
