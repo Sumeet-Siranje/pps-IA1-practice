@@ -1,0 +1,19 @@
+Starting program: /home/runner/pps-IA1-practice-2/a.out 
+warning: Error disabling address space randomization: Operation not permitted
+enter the number of complex number
+3
+enter the complex number
+4
+5
+enter the complex number
+6
+7
+enter the complex number
+8
+7
+4.00+ 5.00i
+6.00+ 7.00i
+8.00+ 7.00i
+is 18.00 + 19.00i
+[Inferior 1 (process 1087) exited normally]
+(gdb) 
