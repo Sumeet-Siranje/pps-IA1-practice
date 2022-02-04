@@ -3,4 +3,5 @@ warning: Error disabling address space randomization: Operation not permitted
 Enter the First String: 34
 Enter the Second String: 32
 34 is Greater than 32
+
 [Inferior 1 (process 608) exited normally]
