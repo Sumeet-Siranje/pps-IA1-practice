@@ -1,0 +1,16 @@
+Starting program: /home/runner/pps-IA1-practice-2/a.out 
+warning: Error disabling address space randomization: Operation not permitted
+enter three numbers
+45
+65
+77
+enter three numbers
+66
+4
+6
+enter three numbers
+7
+8
+5
+largest number is 77
+[Inferior 1 (process 478) exited normally]
