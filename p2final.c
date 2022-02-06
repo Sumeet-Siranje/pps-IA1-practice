@@ -8,7 +8,7 @@ int input(int *a,int *b,int *c){
   printf("enter the third number\n");
   scanf("%d",c);
 
-  return a,b,c;
+return 0;
 }
 int cmp(int a,int b,int c){
   int large;
