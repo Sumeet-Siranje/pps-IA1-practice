@@ -17,7 +17,7 @@ int calc(int n)
 }
 void output(int n,int sum)
 {
-  for(int i=1;i<n;i++){
+  for(int i=1;i<=n;i++){
     printf("%d", i);
   }
   printf("%d is %d\n",n,sum);
