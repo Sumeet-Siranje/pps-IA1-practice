@@ -1,40 +1,33 @@
 #include<stdio.h>
 int input(int *a,int *b,int *c){
-  
-  printf("enter the first number\n");
-  scanf("%d",a);
-  printf("enter the second number\n");
-  scanf("%d",b);
-  printf("enter the third number\n");
-  scanf("%d",c);
+  printf("enter three numbers\n");
+  scanf("%d%d%d",a,b,c);
+  return 0;
 
-return 0;
 }
 int cmp(int a,int b,int c){
   int large;
- if(a>b && a>c){
-large=a;
- }
- else if(b>a && b>c){
-   large=b;
- }
- else if(c>a && c>b){
-   large=c;
- }
- else{
-   large=0;
- }
- return large;
+  if(a>b){
+    if(a>c)
+    large=a;
+    else
+    large=0;
+  }
+  else{
+    if(b>c)
+    large=b;
+    else
+    large=c; 
+  }
+  return large;
 }
-void output(int z){
-  printf("%d is the largest\n",z);
-
+void output(int a,int b,int c,int largest){
+  printf("among %d,%d,and %d ,the largest is %d\n",a,b,c,largest);
 }
 int main(){
-  int p,q,r,s;
-  input(&p,&q,&r);
-  s=cmp(p,q,r);
-  output(s);
-  return 0;
+  int n1,n2,n3,n4;
+  input(&n1,&n2,&n3);
+ n4= cmp(n1,n2,n3);
+ output(n1,n2,n3,n4);
+ return 0;
 }
-
